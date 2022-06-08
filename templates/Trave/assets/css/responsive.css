@@ -1,0 +1,91 @@
+@media screen and (max-width:1680px){
+
+}/*max-width:1680px*/
+@media screen and (max-width:1440px){
+    .hero-service {margin-left: 30px;}
+
+}/*max-width:1440px*/
+
+@media screen and (max-width:1199px){
+    .footer-copyright {padding: 30px 0 0px;}
+    .footer-terms {margin: 20px 0;}
+    .hero-service:nth-child(1) {width: 0;height: 0;}
+}/*max-width:1199px*/
+
+@media screen and (max-width:1024px){
+
+}/*max-width:1024px*/
+
+@media screen and (max-width:1008px){
+
+}/*max-width:1008px*/
+
+@media screen and (max-width:992px){
+	
+}/*max-width:992px*/
+
+@media screen and (max-width:991px){
+    .section-title h2 { font-size: 34px;}
+    .navbar {padding: 10px 0;}
+    .navbar-dark {background: #0070a2;}
+    .nav-responsive-list .ml-auto{margin-left: 20px!important;}
+
+    .welcome-txt h2 {font-size: 48px;}
+    .welcome-txt p {margin: 30px auto;}
+
+    .welcome-hero-service {top: 0;}
+    .hero-service { max-width: 350px;}
+
+    .about-overlay {position: relative;top: 30px;left: 15%;margin-bottom: 30px;}
+    .about-overlay-2 {width: 100%;height: 50%;background: transparent;}
+    .single-about-txt-2 h4 {color: #383838;}
+    .single-about-txt h2 {font-size: 30px;}
+
+}/*max-width:991px*/
+
+@media screen and (max-width:768px){
+    
+}/*max-width:768px*/
+
+@media screen and (max-width:767px){
+	.welcome-txt h2 {font-size: 24px;}
+}/*max-width:767px*/
+
+@media screen and (max-width: 660px){
+	
+}/*max-width:660px*/
+
+@media screen and (max-width: 640px){
+	
+}/*max-width:640px*/
+
+@media screen and (max-width: 575px){
+    .single-featured-box {max-width: 350px;margin: 15px auto;}
+    .about-overlay {position: relative;top: 30px;left:15px;width:88%;}
+}/*max-width:575px*/
+
+@media screen and (max-width: 540px){
+	
+}/*max-width:540px*/
+
+@media screen and (max-width: 480px){
+	
+}/*max-width:480px*/
+
+@media screen and (max-width: 440px){
+	
+}/*max-width:400px*/
+
+@media screen and (max-width: 399px){
+    .service .single-featured-list {padding: 47px 0 32px 0px;}
+    .hero-service {max-width: 227px;}
+}/*max-width:399px*/
+
+@media screen and (max-width:350px){
+	
+}/*max-width:350px*/
+
+@media screen and  (max-width: 320px){
+	
+}/*max-width:320px*/
+
