@@ -1,0 +1,123 @@
+.section_gap {
+    padding: 150px 0;
+    @media(max-width: 992px) {
+        padding: 80px 0;
+    }
+}
+
+.section_gap_top {
+    padding-top: 150px;
+    @media(max-width: 992px) {
+        padding-top: 80px;
+    }
+}
+
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.p0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.owl-dots {
+	text-align: -webkit-center;
+	text-align: center;
+	@media(max-width: 992px){
+		display: none;
+	}
+	.owl-dot {
+		width: 14px;
+		height: 14px;
+		background: #eeeeee;
+		display: inline-block;
+		margin-right: 10px;
+		&:last-child {
+			margin-right: 0;
+		}
+		&.active {
+			background: $baseColor;
+		}
+	}
+}
+
+@media(min-width: 992px) {
+    .header_area.home_menu {
+        display: none;
+        &+section,
+        &+row,
+        &+div {
+            margin-top: 0px;
+        }
+    }
+}
+
+/* Main Button Area css
+============================================================================================ */
+.main_btn1{
+    color: $title-color;
+    font-weight: 500;
+    margin-top: 30px;
+    display: inline-block;
+    img{
+        margin-left: 10px;
+        @include transition();
+        @include filter (brightness());
+    }
+    &:hover{
+        color: $baseColor;
+        img{
+            margin-left: 20px;
+            @include filter (brightness(1));
+        }
+    }
+}
+
+
+/* Main Title Area css
+============================================================================================ */
+
+.main_title {
+    text-align: left;
+	margin-bottom: 80px;
+	@media(max-width: 991px){
+		margin-bottom: 50px;
+	}
+    h1 {
+        font-size: 42px;
+        color: $title-color;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+        span{
+            color: $baseColor;
+        }
+        @media (max-width:991px) {
+            font-size: 36px;
+        }
+    }
+    p {
+        margin-bottom: 0;
+    }
+    img{
+        margin-top: 30px;
+        max-width: 470px;
+    }
+    &.white {
+        h1 {
+            color: #fff;
+        }
+    }
+}
+
+/* End Main Title Area css
+============================================================================================ */

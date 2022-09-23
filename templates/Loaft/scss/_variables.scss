@@ -1,0 +1,65 @@
+/*font Variables*/
+$title-font: 'Rajdhani', sans-serif;
+$text-font: 'Roboto', sans-serif;
+
+
+/*Color Variables*/
+$baseColor: #f5ca56;
+$secondaryColor: #f9f9ff;
+$title-color: #222222;
+$text-color: #777777;
+$gray: #dddddd;
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:400,600|Roboto:400,400i,500');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+@mixin transform($transform){
+  -moz-transform: $transform;
+  -o-transform: $transform;
+  -ms-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+// Animation
+@mixin animation ($args) {
+  -webkit-animation: $args;
+     -moz-animation: $args;
+       -o-animation: $args;
+          animation: $args;
+}
+
+// Keyframe
+@mixin keyframes ( $animation-name ) {
+  @-webkit-keyframes #{$animation-name} {
+      @content;
+  }
+  @-moz-keyframes #{$animation-name}  {
+      @content;
+  }
+  @-o-keyframes #{$animation-name} {
+      @content;
+  }
+  @keyframes #{$animation-name} {
+      @content;
+  }
+}
+
+
+
+
