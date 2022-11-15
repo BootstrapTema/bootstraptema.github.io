@@ -1,0 +1,554 @@
+﻿/*!
+* Created by Kroplet (https://www.kroplet.com) 
+* The easiest way to create Bootstrap 4 themes. 
+*/
+
+/*****************
+Custom CSS
+*****************/
+.body {
+    overflow: hidden;
+}
+
+.small-xl {
+    font-size: 90%;
+}
+
+.large-xl {
+    font-size: 120%;
+}
+
+.large-sm {
+    font-size: 110%;
+}
+
+.img-raised {
+    box-shadow: 0 8px 24px rgba($black,.1);
+}
+
+.raised-box {
+    box-shadow: 0 15px 35px 0 rgba($gray-800, .07);
+}
+
+.img-review {
+    max-width: 60px;
+    filter: grayscale(1);
+
+    &:hover {
+        transform: translateY(-1px);
+        filter: grayscale(0);
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.shadow-bottom {
+    box-shadow: 0px 0px 2px rgba($black, 0.2);
+    background-color: rgba($white, 0.98);
+}
+
+/*Buttons */
+.btn {
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .25s ease-out;
+    
+    &:hover {
+        transform: translateY(-1px);
+    }
+
+    &:active, &:focus {
+        box-shadow: none !important;
+    }
+
+    &.btn-secondary {
+        color: $primary;
+
+        &:hover, &:active, &:focus {
+            background-color: $white !important;
+            
+        }
+    }
+    &.btn-outline-secondary:hover {
+        color: $primary;
+    }
+}
+
+/*Navbar*/
+.navbar {
+
+    &.navbar-shadow {
+        box-shadow: 0px 0px 2px rgba($black, 0.2);
+        transition: all .5s ease-out;
+    }
+
+    &.navbar-transparent {
+        opacity: 0.98;
+    }
+
+    @media (max-width: 992px) {
+        &.navbar-transparent {
+            background-color: rgba($black, 0.4);
+        }
+    }
+    
+    .navbar-brand {
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .navbar-nav {
+         .nav-item {             
+            
+            .nav-link {
+                font-weight: 600;
+                font-size: .875rem;
+                text-transform: uppercase;
+            }
+        }        
+    }
+}
+
+/*signup form*/
+.signup-form {
+    .form-control {
+        padding: 0.7rem 1rem; 
+    }
+ 
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(2.825rem + 4px);
+    }
+}
+
+/*rating starts*/
+.rating-stars {
+    color: $yellow;
+
+    &.inverse {
+        color: $gray-500;
+    }
+}
+
+/*press section*/
+.press {
+    .press-item {
+        opacity: 0.4;
+
+        &:hover {
+            opacity: 1;
+            transform: translateY(-1px);
+            transition: all 0.4s ease-in-out;
+        }   
+    }
+
+    @media (max-width: 768px) {
+        .press-item {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+/*vertical heights */
+.vh-100 {
+    height: 100vh;
+}
+
+@media (min-width:576px){
+    .vh-sm-100{
+        height: 100vh;
+    }
+}
+
+@media (min-width:768px){
+    .vh-md-100{
+        height: 100vh;
+    }
+}
+
+.bg-hero {
+    background-color: $black;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+    &:before {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        display: block;
+        left: 0;
+        top: 0;
+        content: "";
+    }
+
+    &.inverse:before {
+        background-color: rgba($primary, 0.6);
+    }
+
+    .container {
+        z-index: 2;
+        position: relative;
+    }
+}
+
+/*features list*/
+ul.features-list {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    font-size: 17px;
+
+    li {
+        line-height: 1.5;
+        padding-bottom: .5rem;
+
+        &:before {
+            position: relative;
+            font-family: "FontAwesome";
+            content: "\f105";
+            color: $primary;
+            margin: 0 12px 0 0;
+        }
+    }
+}
+
+/*reviews*/
+.review-wrapper {
+    .review{
+        text-align: center;
+        
+        .quote {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+/**slick slider */
+.slick-dots {
+    bottom: -40px;
+
+    li {
+        button::before {
+            font-size: 8px !important;
+            line-height: 40px !important; 
+        }
+        
+        button::before, &.slick-active button:before {
+            color: $primary !important;
+        }
+    }
+}
+
+.slick-next:before, .slick-prev:before {
+    color: rgba($primary, 0.2);
+}
+
+.slick-next:hover:before, .slick-prev:hover:before {
+    color: $primary;
+}
+
+/*Pricing tables*/
+.pricing-table {
+    .pricing-list{
+        margin-bottom: 2rem;
+        li {
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
+            font-size: 1.05rem;
+        }
+    }
+
+    .card {
+
+        margin-top: 2rem;
+        transition: all .25s ease-out;
+
+        .card-body {
+            padding: 4.25rem 2rem;
+        }
+    }
+}
+
+/*footer*/
+footer {
+    ul > li {
+        padding: 0.5rem;
+    }
+
+    a {
+        color: rgba($white, 0.7);
+        transition: all 0.25s ease-out;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    .about  {
+        color: rgba($white, 0.7);
+    }
+}
+
+/*social icons*/
+.social {
+    a {
+        width: 45px;
+        height: 45px;
+        background: rgba($white, 0.2);
+        display: block;
+        text-align: center;
+        color: rgba($white, 0.6);;
+        border-radius: 4px;
+        font-size: 18px;
+        line-height: 45px;
+
+        &:hover {
+            background: $primary;
+            color: $white;
+            transform: translateY(-1px);
+            transition: all .4s ease-in-out;
+        }
+    }
+
+    &.social-dark a{
+        background: rgba($black, 0.6);
+
+        &:hover {
+            background: $primary;
+        }
+    }
+
+    &.social-inverse a{
+            background: rgba($primary, 0.6);
+            color: $gray-800;
+
+        &:hover {
+            background: $primary;
+            color: $white;
+        }
+    }
+
+    &.social-sm a {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        line-height: 35px; 
+    }
+
+    &.social-rounded a {
+       border-radius: 50%;
+    }
+
+    &.social-white a {
+        background: $white;
+        color: rgba($body-color, 0.7);
+
+        &:hover {
+            color: $primary;
+        }
+    }
+ 
+    &.social-white-alt a {
+        background: $white;
+        color: rgba($body-color, 0.7);
+
+        &:hover {
+            background: $primary;
+            color: $white;
+        }
+    }
+}
+
+/*scroll to top */
+.scroll-top {
+    bottom: 20px;
+    font-size: 20px;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 50%;
+    line-height: 40px;
+    right: -100px;
+    color: $white;
+    background-color: rgba($primary, .5);
+    
+    &:hover {
+        background-color: rgba($primary, 1);
+        transform: translateY(-1px);
+        transition: all .4s ease-in-out;
+    }
+
+    &.active {
+        right: 20px; 
+    }
+}
+
+/* Icon Boxes */
+.icon-box {
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: $light;
+    margin: 1rem;
+    transition: all .25s ease-out;
+
+    &:hover {
+        transform: translateY(-1px);
+    }
+
+    &.inverse {
+        background-color: rgba($primary, .1);
+    }
+    
+    &.border-box {
+        border: $border-width solid $primary;
+        background-color: transparent !important;
+    }
+
+    &.hover-box {
+        background-color: $white;
+        color: $primary;
+        transition: all .25s ease-out;
+
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+
+    .icon-box-inner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 3.25rem;
+        
+        &.small {
+            padding: 1.25rem;
+        }
+
+        &.small-xs {
+            padding: 1rem;
+        }
+    }
+}
+
+/*all themes colors*/
+.bg-black {
+    background-color: $black;
+}
+.bg-blue {
+    background-color: $blue;
+}
+.bg-indigo {
+    background-color: $indigo;
+}
+.bg-purple {
+    background-color: $purple;
+}
+.bg-pink {
+    background-color: $pink;
+}
+.bg-red {
+    background-color: $red;
+}
+.bg-orange {
+    background-color: $orange;
+}
+.bg-yellow {
+    background-color: $yellow;
+}
+.bg-green {
+    background-color: $green;
+}
+.bg-teal {
+    background-color: $teal;
+}
+.bg-cyan {
+    background-color: $cyan;
+}
+
+/*theme switcher*/
+.switcher-wrap {
+    position: fixed;
+    top: 250px;
+    width: 250px;
+    background: $white;
+    color: $body-color;
+    z-index: 100;
+    padding: 20px;
+    left: -250px;
+    transition: .3s;
+
+    &.active {
+        left: 0; 
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none; 
+
+        li {
+            margin-bottom: .5rem;
+
+            a {
+                color: $body-color;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    .color-switcher ul li {
+        width: 28px;
+        height: 28px;
+        float: left;
+        margin: 3px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: .3s; 
+
+        &.active {
+            border: 3px solid $light; 
+        }
+    }
+
+    .switcher-trigger {
+        position: absolute;
+        left: 100%;
+        width: 40px;
+        height: 40px;
+        background: $white;
+        top: 0;
+        font-size: 20px;
+        text-align: center;
+        color: rgba($primary, 0.5);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 2px 2px 0;
+
+        &:hover {
+            color: $primary;
+        } 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .switcher-wrap {
+        display: none; 
+    } 
+}
