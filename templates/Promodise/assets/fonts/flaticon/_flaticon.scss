@@ -1,0 +1,87 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 03/09/2018 10:16
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-email:before { content: "\f100"; }
+.flaticon-iphone:before { content: "\f101"; }
+.flaticon-development:before { content: "\f102"; }
+.flaticon-training:before { content: "\f103"; }
+.flaticon-stadistics:before { content: "\f104"; }
+.flaticon-visibility:before { content: "\f105"; }
+.flaticon-analytics:before { content: "\f106"; }
+.flaticon-digital-marketing-1:before { content: "\f107"; }
+.flaticon-analysis:before { content: "\f108"; }
+.flaticon-start:before { content: "\f109"; }
+.flaticon-handshake:before { content: "\f10a"; }
+.flaticon-value:before { content: "\f10b"; }
+.flaticon-idea:before { content: "\f10c"; }
+.flaticon-development-1:before { content: "\f10d"; }
+.flaticon-timer:before { content: "\f10e"; }
+.flaticon-pie-graphic:before { content: "\f10f"; }
+.flaticon-organization:before { content: "\f110"; }
+.flaticon-people:before { content: "\f111"; }
+.flaticon-skills:before { content: "\f112"; }
+.flaticon-marketing:before { content: "\f113"; }
+.flaticon-setting:before { content: "\f114"; }
+.flaticon-training-1:before { content: "\f115"; }
+.flaticon-options:before { content: "\f116"; }
+.flaticon-network:before { content: "\f117"; }
+    
+    $font-Flaticon-email: "\f100";
+    $font-Flaticon-iphone: "\f101";
+    $font-Flaticon-development: "\f102";
+    $font-Flaticon-training: "\f103";
+    $font-Flaticon-stadistics: "\f104";
+    $font-Flaticon-visibility: "\f105";
+    $font-Flaticon-analytics: "\f106";
+    $font-Flaticon-digital-marketing-1: "\f107";
+    $font-Flaticon-analysis: "\f108";
+    $font-Flaticon-start: "\f109";
+    $font-Flaticon-handshake: "\f10a";
+    $font-Flaticon-value: "\f10b";
+    $font-Flaticon-idea: "\f10c";
+    $font-Flaticon-development-1: "\f10d";
+    $font-Flaticon-timer: "\f10e";
+    $font-Flaticon-pie-graphic: "\f10f";
+    $font-Flaticon-organization: "\f110";
+    $font-Flaticon-people: "\f111";
+    $font-Flaticon-skills: "\f112";
+    $font-Flaticon-marketing: "\f113";
+    $font-Flaticon-setting: "\f114";
+    $font-Flaticon-training-1: "\f115";
+    $font-Flaticon-options: "\f116";
+    $font-Flaticon-network: "\f117";
