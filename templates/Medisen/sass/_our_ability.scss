@@ -1,0 +1,151 @@
+/************Team css start***************/
+.our_ability {
+  position: relative;
+  z-index: 99;
+  @media #{$tab} {
+    padding: 70px 0 50px;
+  }
+
+  @media #{$medium_device} {
+    
+  }
+  .our_ability_member_text {
+    @media #{$small_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$large_mobile} {
+      padding-left: 0;
+    }
+
+    @media #{$tab_device} {
+      padding-left: 0;
+    }
+
+    @media #{$medium_device} {
+      padding-left: 0;
+    }
+
+    h5 {
+      font-family: $font_stack_1;
+      color: #556172;
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      padding-left: 75px;
+      text-transform: uppercase;
+
+      &:after {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        height: 2px;
+        width: 60px;
+        content: "";
+        background-color: $btn_bg;
+      }
+    }
+
+    h2 {
+      font-size: 42px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      position: relative;
+      @media #{$tab} {
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 35px;
+        margin-top: 15px;
+      }
+
+      @media #{$medium_device} {
+        font-size: 28px;
+        margin-bottom: 20px;
+        line-height: 40px;
+      }
+    }
+
+    p {
+      line-height: 1.929;
+      margin-bottom: 30px;
+
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+
+      @media #{$small_mobile} {
+        margin-bottom: 10px;
+      }
+
+      @media #{$large_mobile} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$tab_device} {
+        margin-bottom: 20px;
+      }
+
+      @media #{$medium_device} {}
+
+      li {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding-right: 33px;
+        padding-top: 12px;
+        color: $heading_color;
+        width: 50%;
+        float: left;
+        font-family: $font_stack_2;
+        position: relative;
+        padding-left: 29px;
+        @media #{$tab} {
+          padding-top: 5px;
+          padding-right: 15px;
+        }
+        span{
+          margin-right: 10px;
+          color: $btn_bg;
+          position: absolute;
+          top: 16px;
+          left: 0;
+          @media #{$tab} {
+            top: 10px;
+          }
+        }
+      }
+    }
+
+    .btn_2 {
+      margin-top: 13px;
+    }
+  }
+}
+.top_service{
+  @media #{$tab}{
+    padding: 0 0 70px;
+    .our_ability_img{
+      margin-top: 25px;
+    }
+  }
+  @media #{$medium_device}{
+  
+  }
+}

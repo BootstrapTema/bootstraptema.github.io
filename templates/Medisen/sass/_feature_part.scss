@@ -1,0 +1,190 @@
+/**************** service_part css start ****************/
+.feature_part {
+   .single_feature_text {
+      h2 {
+         font-size: 42px;
+         line-height: 1.222;
+         margin-bottom: 30px;
+         @include transform_time(1s);
+         @media #{$small_mobile} {
+            margin-top: 0px;
+            font-size: 25px;
+            margin-bottom: 15px;
+         }
+
+         @media #{$large_mobile} {
+            margin-top: 0px;
+            font-size: 30px;
+            margin-bottom: 15px;
+         }
+
+         @media #{$tab_device} {
+            font-size: 30px;
+         }
+
+         @media #{$medium_device} {
+            margin-top: 0px;
+            font-size: 35px;
+         }
+      }
+
+      p {
+         line-height: 1.9;
+         color: rgb(127, 127, 127);
+         @include transform_time(1s);
+      }
+      .btn_2 {
+         margin-top: 45px;
+         padding: 13.5px 38px;
+         @media #{$small_mobile} {
+            margin-top: 25px;
+         }
+
+         @media #{$large_mobile} {
+            margin-top: 25px;
+         }
+
+         @media #{$tab_device} {
+            margin-top: 25px;
+         }
+
+         @media #{$medium_device} {
+            margin-top: 25px;
+         }
+      }
+   }
+
+   .single_feature_part {
+      padding: 42px 30px 37px;
+      border: 1px solid $border;
+      @include transform_time(1s);
+      position: relative;
+      @media #{$small_mobile} {
+         padding: 25px 10px;
+         margin-top: 25px;
+      }
+
+      @media #{$large_mobile} {
+         padding: 30px 15px;
+         margin-top: 25px;
+      }
+
+      @media #{$tab_device} {
+         padding: 30px 25px;
+         margin-top: 25px;
+      }
+
+      @media #{$medium_device} {
+         margin-top: 25px;
+      }
+      
+      
+      span {
+         margin-bottom: 17px;
+         display: inline-block;
+         position: relative;
+         z-index: 1;
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+         text-align: center;
+         background-color: $icon_bg;
+         display: inline-block;
+         line-height: 50px;
+         @include transform_time(1s);
+         @media #{$small_mobile} {
+            margin-bottom: 25px;
+         }
+   
+         @media #{$large_mobile} {
+            margin-bottom: 15px;
+         }
+   
+         @media #{$tab_device} {
+            margin-bottom: 15px;
+         }
+   
+         @media #{$medium_device} {
+   
+         }
+         i{
+            color: $icon_color;
+            font-size: 24px;
+            @include transform_time(1s);
+         }
+         img{
+            width: 25px;
+         }
+      }
+      h4 {
+         font-weight: 600;
+         font-size: 20px;
+         margin-bottom: 20px;
+         position: absolute;
+         top: 55px;
+         left: 110px;
+         @media #{$small_mobile} {
+            margin-bottom: 15px;
+            top: 38px;
+            left: 85px;
+         }
+   
+         @media #{$large_mobile} {
+            top: 41px;
+            left: 85px;
+         }
+   
+         @media #{$tab_device} {
+            margin-bottom: 15px;
+            top: 32px;
+            left: 96px;
+         }
+   
+         @media #{$medium_device} {
+   
+         }
+      }
+
+      p {
+         color: $font_3;
+         line-height: 1.8;
+         font-size: 15px;
+      }
+   }
+   .single_feature{
+      margin-bottom: 30px;
+      @media #{$tab}{
+         margin-bottom: 0;
+      }
+      @media #{$medium_device} {
+         margin-bottom: 0;
+      }
+      &:hover{
+         .single_feature_part{
+            border: 1px solid $btn_bg;
+            background-color: $btn_bg;
+         }
+         h4{
+            color: $white_color;
+         }
+         p{
+            color: $white_color;
+         }
+         span{
+            background-color: #f2f6f8;
+            i{
+               color: $white_color;
+            }
+         }
+      }
+   }
+}
+.single_feature_part{
+   padding-top: 140px;
+   @media #{$tab}{
+      padding-top: 45px;
+   }
+   @media #{$medium_device}{
+      padding-top: 55px;
+   }
+}
