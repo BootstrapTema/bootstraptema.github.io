@@ -1,0 +1,96 @@
+/*
+* Template Name: Webiz
+* Template URI: https://www.salvatoremandis.it
+* Description: Webiz Digital Agency - Responsive Bootstrap Template
+* Author: Salvatore Mandis
+* Author URI: https://www.salvatoremandis.it
+*/
+*{margin: 0;padding: 0;}
+body{font-family: sans-serif;background-color: #888;-webkit-font-smoothing: antialiased;}
+#nav-bar{position: sticky;top: 0;z-index: 10;}
+.navbar{background: linear-gradient(to right, #1723b1,#58f0ff);padding: 0 !important;}
+/* Logo resize */
+.navbar-brand img{height: 4rem;padding-left: 3rem;}
+.navbar-nav{margin-right: 3rem;}
+.navbar-nav li{padding: 0 1rem;}
+.navbar-nav li{padding: 0 1rem;}
+.navbar-nav .nav-item .nav-link{color: #fff !important; font-weight: 600; float: right; text-align: left;}
+.navbar-nav .nav-item .nav-link:hover{color: #1723b1!important;}
+.fa-bars{color: #fff !important; font-size: 25px !important;}
+.navbar-toggler{outline: none !important;}
+/* --------- Banner ---------- */
+.banner{background: linear-gradient(to right, #1723b1,#58f0ff);color: #fff; padding-top: 5%;}
+.promo-title{font-size: 3rem; font-weight: 600; margin-top: 3em;}
+.join-title{font-size: 1.44rem;}
+.link-play{text-decoration: none;}
+.link-play:hover{color: #58f0ff;text-decoration: none!important;}
+.play-btn{width: 45px;margin: 20px 0;margin-right: 2em;text-decoration: none !important;transition: transform 1.2s;}
+.play-btn:hover{color: #444;text-decoration: none!important;transform: scale(1.2);}
+.banner a{color: #fff; text-decoration: none!important;}
+.img-fluid{margin-top: 4rem;}
+.bottom-img{width: 100%;}
+/* ---------- Services --------- */
+#services{padding: 50px 0;}
+.service-img{width: 130px; margin-top: 2rem;}
+.services{padding: 20px;}
+.services h4{padding: 1em; margin-top: 5px; text-transform: uppercase;}
+.title::after{
+  content: '';
+  background: linear-gradient(to right, #1723b1,#58f0ff);
+  height: 8px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 70px;
+  transform: translateY(23px);}
+#services .btn-primary{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; border-radius: 20px;
+  background: linear-gradient(to right, #1723b1,#58f0ff);
+  transition: transform 1.2s;
+}
+#services .btn-primary:hover{transform: scale(1.2);}
+/* -----------   About -------------*/
+#about{background-color: #f8f9fa; padding-bottom: 3rem; padding-top: 3rem;}
+.about-title{font-size: 1.6em; margin-top: 8%; font-weight: 600;}
+#about ul li{margin: 10px 0;}
+#about ul{margin-left: 20px;}
+/* ------- Testimonials Section -----*/
+#testimonials{margin: 100px 0;}
+.testimonials{border-left: 3px solid #1723b1; margin: 50px 0;}
+.testimonials img{height: 60px;width: 60px;border-radius: 50%; margin: 0 10px;}
+.user-details{display: inline-block;font-size: 12px;}
+.feedback{font-style: italic;}
+/* ----- Footer ------*/
+#footer{background: linear-gradient(to right, #1723b1,#58f0ff); color: #fff;}
+.footer-img{width: 100%;}
+.footer-box{padding: 20px;}
+.footer-box img{width: 4rem; margin-bottom: 20px;}
+.footer-box .fa{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.footer-box .form-control{box-shadow: none !important; border: none; border-radius: 0; margin: 20px 0;}
+.footer-box .btn-primary{
+  box-shadow: none !important;
+  width: 8rem;
+  border: none; border-radius: 50px;
+  background: linear-gradient(to right, #1723b1,#58f0ff);
+  color: #fff;transition: transform 1.2s;
+}
+.footer-box .btn-primary:hover{transform: scale(1.2); color: #fff;}
+/*-------- Social Media icons ---------- */
+#social p{font-weight: 600; font-size: 16px; margin-top: 20px;}
+#social .social-icons .svg-icons img{width: 23px;transition: transform .7s;margin-right: 1rem;}
+#social .social-icons .svg-icons img:hover{transform: scale(1.2);}
+.copyright{padding-top: 2%; font-size: 15px;}
+.copyright a{text-decoration: none;color: #fff;}
+.copyright a:hover{text-decoration: none;color: #1723b1;}
