@@ -1,0 +1,78 @@
+/**************** service_part css start ****************/
+.service_part {
+   position: relative;
+   z-index: 1;
+   .single_service_part {
+      text-align: center;
+      background-color: $white_color;
+      @include transform_time(.5s);
+      border: 1px solid transparent;
+      @media #{$tab} {
+         margin-bottom: 15px;
+      }
+
+      .single_service_text {
+         padding: 50px 35px 44px;
+         span {
+            background: #f3f3f7;
+            width: 72px;
+            height: 72px;
+            line-height: 72px;
+            font-size: 30px;
+            color: $section_bg;
+            display: inline-block;
+            border-radius: 50%;
+            @include transform_time(.5s);
+         }
+
+         h2 {
+            font-size: 18px;
+            text-transform: capitalize;
+            margin-top: 34px;
+            margin-bottom: 17px;
+
+            @media #{$small_mobile} {
+               font-size: 18px !important;
+            }
+
+            @media #{$large_mobile} {
+               font-size: 18px !important;
+            }
+
+            @media #{$tab_device} {
+               font-size: 18px !important;
+            }
+
+            @media #{$medium_device} {
+               font-size: 18px !important;
+            }
+         }
+
+         p {
+            list-style: 1.8;
+            color: $font_1;
+         }
+         .learn_btn{
+             display: inline-block;
+             text-transform: capitalize;
+             margin-top: 20px;
+             color: $base_color;
+         }
+      }
+      
+   }
+   .active{
+        span{
+            background-color: #fef6f7;
+            color: $base_color;
+        }
+        border: 1px solid #e6e6ed;
+   }
+   @media #{$small_mobile} {}
+
+   @media #{$large_mobile} {}
+
+   @media #{$tab_device} {}
+
+   @media #{$medium_device} {}
+}

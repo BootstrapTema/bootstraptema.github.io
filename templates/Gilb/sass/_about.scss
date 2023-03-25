@@ -1,0 +1,57 @@
+/**************** about css start ****************/
+.about_part{
+   background-color: $section_bg_1;
+   h4{
+        font-size: 16px;
+        color: $base_color;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+        @media #{$tab}{
+            margin-bottom: 25px;
+        }
+    }
+   .about_text{
+        .experiance{
+            display: flex;
+            align-items: flex-end;
+            margin-top: 55px;
+            @media #{$tab}{
+                margin-bottom: 25px;
+            }
+            h2{
+                font-size: 120px;
+                color: #ffd200;
+                font-weight: 700;
+                display: inline-block;
+                line-height: 84px;
+                @media #{$tab}{
+                    font-size: 80px;
+                    line-height: 55px;
+                }
+            }
+            p{
+                span{
+                    display: block;
+                }
+            }
+        }
+    }
+    .experiance_list{
+        .experiance_list_iner{
+            columns: 2;
+            .single_experiance_list{
+                margin-bottom: 31px;
+                h5{
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: $white_color;
+                    margin-bottom: 12px;
+                }
+                p{
+                    font-size: 16px;
+                    color: #c5c5c5;
+                }
+            }
+        }
+    }
+}

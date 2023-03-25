@@ -1,0 +1,30 @@
+/********** philosophy part css start************/
+.philosophy_part{
+    .philophy_text{
+        h5{
+           font-size: 16px;
+           text-transform: uppercase;
+           color: $base_color; 
+        }
+        h2{
+           font-size: 32px;
+           line-height: 48px; 
+           margin: 20px 0 30px;
+           @media #{$tab}{
+               font-size: 25px;
+               line-height: 30px;
+           }
+        }
+        p{
+           font-size: 16px; 
+           color: $font_6;
+           margin-top: 20px;
+        }
+    }
+    .philophy_img{
+        margin-top: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}

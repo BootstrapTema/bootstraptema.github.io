@@ -1,0 +1,135 @@
+/**************** banner part css start ****************/
+.banner_part{
+    height: 1075px;
+    position: relative;
+    background-image: url(../img/banner_bg_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    z-index: 2;
+    background-color: $section_bg;
+    @media #{$tab}{
+        height: 650px;
+        background-image: none;
+    }
+    @media #{$medium_device}{
+        height: 700px;
+    }
+    &:after{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        content: "";
+        left: 0;
+        background-size: contain;
+        top: 0;
+        z-index: -1;
+        background: url(../img/banner_overlay_1.png) top left no-repeat;
+
+    }
+    &:before{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        content: "";
+        left: 0;
+        background-size: contain;
+        top: 0;
+        z-index: -1;
+        background: url(../img/banner_overlay_2.png) top left no-repeat;
+
+    }
+    
+    .banner_text{
+        display: table;
+        width: 100%;
+        height: 1075px;
+        padding-top: 40px;
+        .banner_text_iner{
+            display: table-cell;
+            vertical-align: middle;
+            
+        }
+        @media #{$small_mobile}{
+            text-align: center;
+            padding-top: 0px;
+            height: 700px;
+        }
+        @media #{$large_mobile}{
+            text-align: center;
+            padding-top: 0px;
+            height: 700px;
+        }
+        @media #{$tab_device}{
+            text-align: center;
+            padding-top: 0px;
+            height: 700px;
+        }
+        @media #{$medium_device}{
+            height: 700px;
+        }
+        h5{
+            font-size: 30px;
+            color: $white_color;
+        }
+        h1{
+            font-size: 80px;
+            font-weight: 400;
+            margin-bottom: 65px;
+            line-height: 96px;
+            color: $white_color;
+            margin-top: 35px;
+            @media #{$tab}{
+                font-size: 30px;
+                margin-bottom: 20px;
+                margin-top: 15px;
+                line-height: 1.3;
+            }
+            @media #{$medium_device}{
+                font-size: 40px;
+                margin-bottom: 15px;
+                line-height: 1.4;
+            }
+            span{
+                color: $btn_bg;
+            }
+        }
+        .btn_1{
+            border-radius: 0;
+            @media #{$small_mobile}{
+                margin-top: 0px;
+            }
+            @media #{$large_mobile}{
+                margin-top: 0px;
+            }
+            @media #{$tab_device}{
+                margin-top: 0px;
+            }
+            @media #{$medium_device}{
+            
+            }
+        }
+    }
+}
+.More_Btn {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 7359px;
+    z-index: 368;
+  }
+  .More_About_Us {
+    font-size: 16px;
+    font-family: "Cardo";
+    color: rgb(255, 255, 255);
+    line-height: 1.75;
+    text-align: center;
+    position: absolute;
+    left: 420.937px;
+    top: 735.5px;
+    z-index: 367;
+  }
+
+   
+/**************** hero part css end ****************/

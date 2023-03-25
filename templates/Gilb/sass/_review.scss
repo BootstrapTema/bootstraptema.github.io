@@ -1,0 +1,75 @@
+/**************** review_part css start ****************/
+.review_part{
+  background-color: $section_bg;
+  .client_review_part{
+    .client_review_img{
+      position: relative;
+      padding-left: 70px;
+      margin-top: 40px;
+      img{
+        max-width: 50px;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+  .client_review_single {
+    .client_review_text{
+      p{
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 300;
+      }
+      h4{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $white_color;
+        padding-top: 6px;
+        line-height: 15px;
+        margin-bottom: 0;
+        @media #{$small_mobile}{
+          margin-top: 20px;
+          font-size: 20px;
+        }
+        @media #{$large_mobile}{
+          margin-top: 20px;    
+          font-size: 20px;
+        }
+        @media #{$tab_device}{
+          margin-top: 20px;    
+          font-size: 20px;
+        }
+        @media #{$medium_device}{
+        
+        }
+        span{
+          font-family: $font_stack_2;
+          font-size: 14px;
+          color: #555555;
+        }
+      }
+    }
+  }
+  .review_icon{
+    i{
+      color: $btn_hover;
+    }
+  }
+
+  .owl-dots{
+    text-align: center;
+    margin-top: 75px;
+    button{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: transparent;
+      margin: 5px;
+      border: 1px solid #fff;
+    }
+    .active{
+      background-color: $white_color;
+    }
+  }
+}

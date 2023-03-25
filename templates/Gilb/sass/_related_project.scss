@@ -1,0 +1,49 @@
+/******** related project css *******/
+.related_project{
+    .single_project_details{
+        @media #{$tab}{
+            margin-bottom: 30px;
+        }
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        &:after{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $base_color;
+            content: "";
+            opacity: 0;
+            z-index: 2;
+            @include transform_time(.5s);
+        }
+        .portfolio_hover_text{
+            i{
+                color: $white_color;
+                font-size: 25px;
+                position: absolute;
+                top: 48%;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                padding: 10px;
+                z-index: 9;
+                opacity: 0;
+                @include transform_time(.5s);
+            }
+        }
+        &:hover{
+            &:after{
+                opacity: .5;
+                padding: 10px;
+            }
+            .portfolio_hover_text{
+                i{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
