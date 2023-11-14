@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Industry.INC | HTML Template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Industry.INC HTML Template">
+	<meta name="keywords" content="industry, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section  -->
+	<header class="header-section clearfix">
+		<div class="header-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+					<div class="col-md-6 text-md-right">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="site-navbar">
+			<!-- Logo -->
+			<a href="index.html" class="site-logo">
+				<img src="img/logo.png" alt="">
+			</a>
+			<div class="header-right">
+				<div class="header-info-box">
+					<div class="hib-icon">
+						<img src="img/icons/phone.png" alt="" class="">
+					</div>
+					<div class="hib-text">
+						<h6>+546 990221 123</h6>
+						<p>contact@industryalinc.com</p>
+					</div>
+				</div>
+				<div class="header-info-box">
+					<div class="hib-icon">
+						<img src="img/icons/map-marker.png" alt="" class="">
+					</div>
+					<div class="hib-text">
+						<h6>Main Str, no 23</h6>
+						<p>NY, New York PK 23589</p>
+					</div>
+				</div>
+				<button class="search-switch"><i class="fa fa-search"></i></button>
+			</div>
+			<!-- Menu -->
+			<nav class="site-nav-menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li class="active"><a href="solutions.html">Solutions</a>
+						<ul class="sub-menu">
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+	<!-- Header section end  -->
+	
+	<!-- Page top section  -->
+	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/2.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<h2>Our Solutions</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. </p>
+					<a href="" class="site-btn">Contact us</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Page top section end  -->
+
+	<!-- Services section  -->
+	<section class="services-2-section spad">
+		<div class="container">
+			<div class="service-text">
+				<h2>A group of productive enterprises that produce or supply Goods, Services, or Sources of Income</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="service-item">
+						<div class="si-head">
+							<div class="si-icon">
+								<img src="img/icons/cogwheel.png" alt="">
+							</div>
+							<h5>Mechanical Engineering</h5>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="service-item">
+						<div class="si-head">
+							<div class="si-icon">
+								<img src="img/icons/helmet.png" alt="">
+							</div>
+							<h5>Profesional Workers</h5>
+						</div>
+						<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="service-item">
+						<div class="si-head">
+							<div class="si-icon">
+								<img src="img/icons/wind-engine.png" alt="">
+							</div>
+							<h5>Green Energy</h5>
+						</div>
+						<p>Sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec con-sequat arcu et commodo interdum. </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="service-item">
+						<div class="si-head">
+							<div class="si-icon">
+								<img src="img/icons/pollution.png" alt="">
+							</div>
+							<h5>Power Engineering</h5>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="service-item">
+						<div class="si-head">
+							<div class="si-icon">
+								<img src="img/icons/pumpjack.png" alt="">
+							</div>
+							<h5>Oil & Lubricants</h5>
+						</div>
+						<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="service-item">
+						<div class="si-head">
+							<div class="si-icon">
+								<img src="img/icons/light-bulb.png" alt="">
+							</div>
+							<h5>Power & Energy</h5>
+						</div>
+						<p>Sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec con-sequat arcu et commodo interdum. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Services section end  -->
+
+	<!-- Reserch section  -->
+	<section class="reserch-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<ul class="nav nav-tabs reserch-tab-menu" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Oil & Lubricants</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Engeneering</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Green Energy</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">Constructions</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#tab-5" role="tab" aria-controls="tab-5" aria-selected="false">Power</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#tab-6" role="tab" aria-controls="tab-6" aria-selected="false">Others</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-8">
+					<div class="tab-content reserch-tab">
+						<!-- single tab content -->
+						<div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+							<h2>We produce or supply Goods, & Services, Oils & Lubricants</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor.</p>
+							<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est.</p>
+						</div>
+						<div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+							<h2>We produce or supply Goods, & Services, Oils & Lubricants</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor.</p>
+							<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis</p>
+						</div>
+						<div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+							<h2>We produce or supply Goods, & Services, Oils & Lubricants</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor.</p>
+						</div>
+						<div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4">
+							<h2>We produce or supply Goods, & Services, Oils & Lubricants</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor.</p>
+							<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est.</p>
+						</div>
+						<div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="tab-5">
+							<h2>We produce or supply Goods, & Services, Oils & Lubricants</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor.</p>
+							<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<div class="tab-pane fade" id="tab-6" role="tabpanel" aria-labelledby="tab-6">
+							<h2>We produce or supply Goods, & Services, Oils & Lubricants</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor.</p>
+							<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis commodo.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="reserch-info-warp">
+						<a href="" class="site-btn w-100">Download Brochure</a>
+						<div class="info-box">
+							<h3>Contact Us for Help</h3>
+							<p>Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. </p>
+							<div class="footer-info-box">
+								<div class="fib-icon">
+									<img src="img/icons/phone.png" alt="" class="">
+								</div>
+								<div class="fib-text">
+									<p>+546 990221 123<br>contact@industryalinc.com</p>
+								</div>
+							</div>
+							<a href="#">Send us a message</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="reserch-text">
+								<h5>Research Results</h5>
+								<p>Quisque orci purus, sodales in est quis, blandit sollici-tudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. Vivamus posuere lorem lacus.Lorem ipsum dolor sit amet, con-sectetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. </p>
+							</div>
+						</div>
+						<div class="col-md-6 circle-progress-warp">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="circle-progress" data-cptitle="Passion" data-cpid="id-1" data-cpvalue="75" data-cpcolor="#ffc000">
+										<p>Lorem ipsum dolor</p>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="circle-progress" data-cptitle="Passion" data-cpid="id-2" data-cpvalue="50" data-cpcolor="#ffc000">
+										<p>Lorem ipsum dolor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="skill-warp">
+						<div class="single-progress-item">
+							<div class="progress-bar-style" data-progress="45"></div>
+							<p>Industry</p>
+						</div>
+						<div class="single-progress-item">
+							<div class="progress-bar-style" data-progress="75"></div>
+							<p>Constructions</p>
+						</div>
+						<div class="single-progress-item">
+							<div class="progress-bar-style" data-progress="95"></div>
+							<p>Green Energy</p>
+						</div>
+						<div class="single-progress-item">
+							<div class="progress-bar-style" data-progress="65"></div>
+							<p>Oil & Lubricants</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Reserch section end  -->
+
+	<!-- Call to action section  -->
+	<section class="cta-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 d-flex align-items-center">
+					<h2>We produce or supply Goods, Services, or Sources</h2>
+				</div>
+				<div class="col-lg-3 text-lg-right" >
+					<a href="#" class="site-btn sb-dark">contact us</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Call to action section end  -->
+
+	<!-- Footer section -->
+	<footer class="footer-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-widget about-widget">
+						<img src="img/logo-light.png" alt="">
+						<p>Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Quisque orci purus, sodales in est quis, blandit sollicitudin est. Nam ornare ipsum ac accumsan auctor. Donec consequat arcu et commodo interdum. </p>
+						<div class="footer-social">
+							<a href=""><i class="fa fa-facebook"></i></a>
+							<a href=""><i class="fa fa-twitter"></i></a>
+							<a href=""><i class="fa fa-dribbble"></i></a>
+							<a href=""><i class="fa fa-behance"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-widget">
+						<h2 class="fw-title">Useful Resources</h2>
+						<ul>
+							<li><a href="">Jobs Vacancies</a></li>
+							<li><a href="">Client Testimonials</a></li>
+							<li><a href="">Green  Energy</a></li>
+							<li><a href="">Chemical Research</a></li>
+							<li><a href="">Oil Extractions</a></li>
+							<li><a href="">About our Work</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="footer-widget">
+						<h2 class="fw-title">Our Solutions</h2>
+						<ul>
+							<li><a href="">Metal Industry</a></li>
+							<li><a href="">Agricultural Engineering</a></li>
+							<li><a href="">Green  Energy</a></li>
+							<li><a href="">Chemical Research</a></li>
+							<li><a href="">Oil Extractions</a></li>
+							<li><a href="">Manufactoring</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-7">
+					<div class="footer-widget">
+						<h2 class="fw-title">Contact Us</h2>
+						<div class="footer-info-box">
+							<div class="fib-icon">
+								<img src="img/icons/map-marker.png" alt="" class="">
+							</div>
+							<div class="fib-text">
+								<p>Main Str, no 23 NY,<br>New York PK 23589</p>
+							</div>
+						</div>
+						<div class="footer-info-box">
+							<div class="fib-icon">
+								<img src="img/icons/phone.png" alt="" class="">
+							</div>
+							<div class="fib-text">
+								<p>+546 990221 123<br>contact@industryalinc.com</p>
+							</div>
+						</div>
+						<form class="footer-search">
+							<input type="text" placeholder="Search">
+							<button><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-buttom">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-4 order-2 order-lg-1 p-0">
+					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+				</div>
+				<div class="col-lg-7 order-1 order-lg-2 p-0">
+					<ul class="footer-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li class="active"><a href="solutions.html">Solutions</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+	<!-- Search model -->
+	<div class="search-model">
+		<div class="h-100 d-flex align-items-center justify-content-center">
+			<div class="search-close-switch">+</div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="Search here.....">
+			</form>
+		</div>
+	</div>
+	<!-- Search model end -->
+	
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
